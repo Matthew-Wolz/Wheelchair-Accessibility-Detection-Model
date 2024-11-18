@@ -1,0 +1,8 @@
+Wheelchair Accessibility Detection
+Project Overview
+This project provides an AI-powered solution to assess the accessibility of public spaces. Using the Gemini API, the tool analyzes photos of locations and identifies key accessibility features like ramps, handrails, and stairs to determine whether the space is accessible. It aims to help individuals make informed decisions about whether a location meets their accessibility needs.
+
+Features
+Photo-based Accessibility Analysis: Simply upload an image, and the tool will evaluate ramps, handrails, stairs, and other accessibility features.
+Instant Decision-Making: Quickly determine whether a space is accessible, empowering individuals with mobility challenges.
+Built with Gemini API: The solution leverages the Gemini API to power the AI model, providing fast and accurate results.
