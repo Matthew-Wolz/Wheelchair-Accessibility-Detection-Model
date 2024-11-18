@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessibility Ramp Assessment</title>
+</head>
+<body>
+  <main>
+    <h1>Assess Wheelchair Accessibility</h1>
+    <form id="assessment-form" aria-labelledby="assessment-form">
+      <label for="uploaded-image">Upload an image for analysis:</label>
+      <input type="file" id="uploaded-image" accept="image/*" aria-label="Select an image to upload" />
+      <img id="preview-image" alt="Uploaded image preview" style="max-width: 100%; display: none;" />
+      
+      <div class="prompt-box">
+        <label for="prompt-input">
+          <input id="prompt-input" name="prompt" placeholder="Enter details for ramp analysis" type="text" value="Analyze the image for the presence of wheelchair ramps, stairs, and handrails.">
+        </label>
+        <button type="submit">Analyze</button>
+      </div>
+    </form>
+    <p class="output">(Results will appear here)</p>
+    <p id="score-display" style="font-weight: bold;"></p>
+    <p id="deduction-details" style="color: red;"></p>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
