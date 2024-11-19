@@ -1,8 +1,8 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import './style.css';
 
-let API_KEY = 'AIzaSyBqhdBgRBwC6ZXcohG1IE9Eo84Va9xJNMA';
-let VISION_API_KEY = 'AIzaSyDADJbN6uxZ4xZy9SgkCSs1SJsxMbm57Ek';
+let API_KEY = 'Hidden';
+let VISION_API_KEY = 'Hidden';
 
 let form = document.querySelector('#assessment-form');
 let promptInput = document.querySelector('input[name="prompt"]');
